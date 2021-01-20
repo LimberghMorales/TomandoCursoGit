@@ -12,6 +12,7 @@
 }
 .main nav ul li{
     display: inline;
+    margin-right: 10px;
     font-size: 20px;
 }
 /*SECCION DEL BODY*/
