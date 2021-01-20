@@ -14,6 +14,14 @@
     display: inline;
     font-size: 20px;
 }
+/*SECCION DEL BODY*/
+
+.body{
+    min-height: calc(100vh - 161px);   
+}
+
+/*SECCION DEL BODY*/
+
 .footer{
     background-color: darkcyan;
     padding: 20px;
