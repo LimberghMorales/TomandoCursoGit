@@ -4,3 +4,13 @@
     box-sizing: border-box;
     font-size: "Arial";
 }
+.main{
+    background-color: darkblue;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+}
+.main nav ul li{
+    display: inline;
+    font-size: 20px;
+}
