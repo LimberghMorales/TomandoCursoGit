@@ -17,9 +17,36 @@
 /*SECCION DEL BODY*/
 
 .body{
+    padding: 20px;
     min-height: calc(100vh - 161px);   
 }
-
+.body .contenedor{
+    padding-top:20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.body .contenedor .anuncio{
+    margin: auto;
+    border:2px solid #333;
+    width: 350px;
+    padding: 10px;
+}
+.body .contenedor .anuncio .headAnuncio{
+    text-align: center;
+    height: 90px;
+}
+.body .contenedor .anuncio .acciones{
+    margin: 0 auto;
+    width: 60%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
 /*SECCION DEL BODY*/
 
 .footer{
