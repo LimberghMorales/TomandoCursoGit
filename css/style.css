@@ -47,6 +47,25 @@
 a{
     text-decoration: none;
 }
+@media(max-width:1200px){
+.body .contenedor{
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+}
+@media(max-width:1110px){
+    .body .contenedor{
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    }
+}
+@media(max-width:755px){
+        .body .contenedor{
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 20px;
+    }
+}
+
 /*SECCION DEL BODY*/
 
 .footer{
